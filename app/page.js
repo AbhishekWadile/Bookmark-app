@@ -6,9 +6,9 @@ export default function Home() {
 
   const login = async () => {
     const { error } = await supabase.auth.signInWithOAuth({
-      provider: "google",
-      options: {
-        redirectTo: "https://bookmark-app-sepia.vercel.app/dashboard"
+          provider: "google",
+          options: {
+          redirectTo: `${window.location.origin}/dashboard`
       }
     })
 
