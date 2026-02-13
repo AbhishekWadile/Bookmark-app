@@ -8,7 +8,7 @@ export default function Home() {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: "http://localhost:3000/dashboard"
+        redirectTo: "https://bookmark-app-sepia.vercel.app/dashboard"
       }
     })
 
