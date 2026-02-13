@@ -115,11 +115,11 @@ Authentication → URL Configuration
 
 Site URL:
 
-    http://localhost:3000
+    https://bookmark-app-4dud.vercel.app/
 
 Redirect URL:
 
-    http://localhost:3000/dashboard
+    https://bookmark-app-4dud.vercel.app/dashboard
 
 ------------------------------------------------------------------------
 
